@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <fieldset>
+    <legend>
+      <h2>Form</h2>
+    </legend>
+    <form id="form">
+      <input type="text" id="Employee id" name="name" placeholder="Employee id"><br><br>
+      <input type="text" id="first name" name="jon" placeholder="first name"><br><br>
+      <input type="text" id="last name" name="exp" placeholder="last name"><br><br>
+      <input type="text" id="mobile no" name="name" placeholder="mobile no"><br><br>
+      <input type="button" value="Add" id="btn" onclick="Add()">
+      <input type="reset">
+    </form>
+  </fieldset>
+
+ <br>
+  <div id="msg"></div>
+
+
+  <fieldset>
+    <legend>
+      <h2>Data from Local Storage</h2>
+    </legend>
+
+    <table border="4" id="table">
+      <tr>
+        <td class="col">Employee id</td>
+        <td class="col">first name</td>
+        <td class="col">last name</td>
+        <td class="col">mobile no</td>
+        <td class="col">action</td>
+
+        
+        
+      </tr>
+    </table>
+  </fieldset>
+  
+
+
+  <script src="script.js"></script>
+</body>
+<fieldset>
+<h3 class="text-danger">New Employee</h3><br>
+<input type="text" id="created by" name="name" placeholder="created by"><br><br>
+      <input type="text" id="updated by" name="jon" placeholder="updated by"><br><br>
+      <input type="text" id="first name" name="jon" placeholder="first name"><br><br>
+      <input type="text" id="last name" name="exp" placeholder="last name"><br><br>
+      <input type="text" id="Employee id" name="exp" placeholder="Employee id"><br><br>
+      <input type="text" id="mobile no" name="name" placeholder="mobile no"><br><br>
+      <label  for="body">Department</label>
+                  <select  class="form-control" id="body-value">
+                      <option >Choose</option>
+                      <option >UI Developer</option>
+                      <option >Buisness Analyst </option>
+                      <option >Marketing</option>
+                  </select>
+                  <label for="body">Date of Joining</label>
+                  <input type="date" class="form-control" id="body-value">
+
+
+
+
+
+
+
+
+
+<br><br>
+<input type="button" value="Add" id="btn" onclick="Add()">
+</fieldset>
+</html>
